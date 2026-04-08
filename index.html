@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2511081038 | Portföy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1 id="yazi"></h1>
+    <button id="temabutonu">Tema Değiştir</button>
+</header>
+
+<main class="container">
+
+<section class="kart">
+    <img src="assets/unnamed.jpg" class="profil"> 
+    <h2>Hakkımda</h2>
+    <p>Selam, ben <strong>Arda Melih Gerek</strong>. Aslen Erzincanlıyım, şu an Gümüşhane'de Bilgisayar Programcılığı bölümünde okuyorum. Lisede bilgisayar bölümü yazılım dalından mezun oldum, yani bu işin temelinden geliyorum.</p>
+    <p>Özellikle web tasarımı ve programlama ile uğraşmayı seviyorum. Şu sıralar en çok odaklandığım şey <strong>DebugTR</strong> adındaki bilgisayar forum sitesi projem.
+
+<section class="kart">
+    <h2>Eğitim ve Yetenekler</h2>
+    <p>Bilgisayar Programcılığı</p>
+    <p>Gördüğüm Dersler: İnternet Programcılığı, Görsel Programlama, Grafik Animasyon</p>
+
+    <div class="yetenekler">
+        <span>HTML</span>
+        <div class="bar"><div class="dolum" style="width:80%"></div></div>
+    </div>
+
+    <div class="yetenekler">
+        <span>CSS</span>
+        <div class="bar"><div class="dolum" style="width:70%"></div></div>
+    </div>
+
+    <div class="yetenekler">
+        <span>JS</span>
+        <div class="bar"><div class="dolum" style="width:65%"></div></div>
+    </div>
+</section>
+
+<section class="kart">
+    <h2>Projeler</h2>
+
+    <div class="butonlar">
+        <button onclick="filtrele('hepsi')">Hepsi</button>
+        <button onclick="filtrele('web')">Web</button>
+        <button onclick="filtrele('mobil')">Mobil</button>
+    </div>
+
+    <div id="projeler"></div>
+</section>
+
+<section class="sertifika-karti">
+    <h2>Sertifikalarım</h2>
+    <ul class="sertifika-listesi">
+        <li>
+            <span class="sertifika-ikon">📜</span>
+            <div class="sertifika-detay">
+                Bilişim Teknolojileri İş Yeri Açma Belgesi
+                <span class="sertifika-kurum">Mesleki ve Teknik Anadolu Lisesi</span>
+            </div>
+        </li>
+        <li>
+            <span class="sertifika-ikon">💻</span>
+            <div class="sertifika-detay">
+                Web Tasarımı ve Programlama Temelleri
+                <span class="sertifika-kurum">Üniversite Eğitimi</span>
+            </div>
+        </li>
+        <li>
+            <span class="sertifika-ikon">⚙️</span>
+            <div class="sertifika-detay">
+                İşletim Sistemi Temelleri
+                <span class="sertifika-kurum">Katılım Belgesi</span>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<section class="kart">
+    <h2>İletişim</h2>
+    <a href="mailto:ardamelihgerekk@gmail.com">Mail Gönder</a>
+    <br>
+    <a href="https://github.com/ardagerek" target="_blank">GitHub</a>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
